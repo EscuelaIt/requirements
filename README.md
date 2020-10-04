@@ -23,8 +23,6 @@
 <li><a href="#modelo-del-dominio">Modelo del Dominio</a>
 <ul class="sectlevel2">
 <li><a href="#vocabulario">Vocabulario</a></li>
-<li><a href="#estado-inicial">Estado Inicial</a></li>
-<li><a href="#estado-final-objetivo-tictactoe-en-3ª-fila">Estado Final. Objetivo TicTacToe en 3ª fila</a></li>
 <li><a href="#instrucciones">Instrucciones</a></li>
 </ul>
 </li>
@@ -38,30 +36,14 @@
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/TicTacToe.png" alt="TicTacToe">
+<img src="build/docs/asciidoc/images/Mastermind.png" alt="Mastermind">
 </div>
 </div>
 <div class="sect2">
 <h3 id="vocabulario">Vocabulario</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="504" height="296">
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="estado-inicial">Estado Inicial</h3>
-<div class="imageblock">
-<div class="content">
-<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="504" height="296">
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="estado-final-objetivo-tictactoe-en-3ª-fila">Estado Final. Objetivo TicTacToe en 3ª fila</h3>
-<div class="imageblock">
-<div class="content">
-<img src="build/docs/asciidoc/images/estadoFinalTicTacToe.svg" alt="estadoFinalTicTacToe" width="504" height="296">
+<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="872" height="1039">
 </div>
 </div>
 </div>
@@ -69,7 +51,7 @@
 <h3 id="instrucciones">Instrucciones</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="504" height="296">
+<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="654" height="295">
 </div>
 </div>
 </div>
@@ -146,7 +128,7 @@
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br>
-Last updated 2020-10-04 18:39:02 +0200
+Last updated 2020-10-04 19:20:38 +0200
 </div>
 </div>
 </html>
