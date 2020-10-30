@@ -1,0 +1,56 @@
+@startuml Vocabulario
+Mastermind *-down-> Board
+Mastermind *-down-> Turn
+Mastermind *-down-> "2" Player
+
+Turn -down-> "2" Player
+Player <|-down- MakerPlayer
+Player <|-down- BreakerPlayer
+
+BreakerPlayer -down-> Goal
+
+Goal <|-down- WinnerResult
+
+Result <|-down- WinnerResult
+
+Result --> SecretCombination
+Result --> ProposedCombination
+
+WinnerResult *-down-> "4" Black
+
+MakerPlayer -down-> SecretCombination
+BreakerPlayer -down-> "0..10" ProposedCombination
+
+Board *-down-> SecretCombination
+Board o-down-> "0..10" ProposedCombination
+Board o-down-> "0..10" Result
+
+Result *-down-> "0..4" Success
+Success <|-down- Black
+Success <|-down- White
+
+Black --> Position
+Success --> Color
+
+Combination *-down-> "4" Position
+Position o-down-> Color
+Combination <|-down- SecretCombination
+Combination <|-down- ProposedCombination
+
+Color <|-down- Red
+Color <|-down- Blue
+Color <|-down- Yellow
+Color <|-down- Green
+Color <|-down- Orange
+Color <|-down- Purple
+@enduml
+
+@startuml Instrucciones
+
+[*] --> A : makerPlayer make a secretCombination
+A --> B : breakerPlayer propose a proposedCombination
+B --> A : makerPlayer show results
+A --> [*] : [isWinner || 10 propositons]
+
+@enduml
+
