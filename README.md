@@ -1,7 +1,6 @@
-## Mastermind
-Santa Tecla  
-[parqueNaturalSantaTecla@gmail.com](mailto:parqueNaturalSantaTecla@gmail.com)  
-version 0.1.6  
+# Mastermind
+Universo Santa Tecla  
+[uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
 
 **Índice**
 
@@ -10,18 +9,18 @@ version 0.1.6
 1.2. [Instrucciones](#instrucciones)  
 2. [Versiones](#versiones)
 
-# Modelo del dominio  
+## Modelo del dominio  
   
 ![Mastermind](docs/images/mastermind.jpg)  
   
-## Vocabulario
+### Vocabulario
 
 ![Vocabulario](./docs/diagrams/out/modeloDelDominio/Vocabulario.svg)  
   
-## Instrucciones  
+### Instrucciones  
   
 ![Instrucciones](./docs/diagrams/out/modeloDelDominio/Instrucciones.svg)  
   
-# Versiones  
+## Versiones  
   
 ![Versiones](./docs/diagrams/out/versiones/versiones.svg)  

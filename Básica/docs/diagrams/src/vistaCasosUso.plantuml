@@ -1,0 +1,26 @@
+@startuml actores
+left to right direction
+
+actor Player
+usecase Start
+usecase ProposeCombination
+usecase Resume
+
+Player --> Start
+Player --> ProposeCombination
+Player --> Resume
+@enduml
+
+@startuml contexto
+state State0 as " "
+state State1 as " "
+state State2 as " "
+state State3 as " "
+[*] --> State0
+State0 --> State1 : Start
+State1 --> State1 : ProposeCombination
+State1 --> State2 : [isWinner || isLooser]
+State2 --> State3 : Resume
+State3 --> State0 : [isResumed]
+State3 --> [*] : [else]
+@enduml
