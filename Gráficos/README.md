@@ -27,7 +27,7 @@ Universo Santa Tecla
 
 | Pantallas | Diálogos |
 |---|---|
-| ![TicTacToe](./docs/images/pantallas.png) | ![TicTacToe](./docs/images/dialogos.png) |
+| ![Mastermind](./docs/images/pantallas.png) | ![Mastermind](./docs/images/dialogos.png) |
 
 #### Consola
 
