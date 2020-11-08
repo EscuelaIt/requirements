@@ -54,7 +54,7 @@ rybo --> 1 blacks and 1 whites
 byro --> 2 blacks and 0 whites
 pgro --> 4 blacks and 0 whites
 You've won!!! ;-)
-RESUME? (y/n): y
+RESUME? (y/n): 
 ```
 
 #### Partida perdida
