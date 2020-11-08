@@ -74,6 +74,41 @@ pgyo --> 3 blacks and 0 whites
 ----- Choose one option ----
 1. Propose Combination
 2. Undo previous Proposal
+2
+3 attempt(s):
+pybo --> 1 blacks and 2 whites
+gybo --> 0 blacks and 3 whites
+pgbo --> 2 blacks and 1 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Redo previous Proposal
+2
+2 attempt(s):
+pybo --> 1 blacks and 2 whites
+gybo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Redo previous Proposal
+3
+3 attempt(s):
+pybo --> 1 blacks and 2 whites
+gybo --> 0 blacks and 3 whites
+pgbo --> 2 blacks and 1 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Redo previous Proposal
+3
+4 attempt(s):
+pybo --> 1 blacks and 2 whites
+gybo --> 0 blacks and 3 whites
+pgbo --> 2 blacks and 1 whites
+pgyo --> 3 blacks and 0 whites
+----- Choose one option ----
+1.Propose Combination
+2. Undo previous Proposal
 1
 Propose a combination: pgyb
 5 attempt(s):
