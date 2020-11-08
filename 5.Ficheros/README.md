@@ -21,4 +21,113 @@ Universo Santa Tecla
 
 ### Prototipo de Interfaz  
 
+```
+----- MASTERMIND ---------
+Choose one option ----
+1. Start a new game
+2. Open a saved game
+1
+0 attempt(s):
+----- Choose one option ----
+1. Propose Combination
+2. Exit game
+1
+Propose a combination: rybo
+1 attempt(s):
+rybo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+3
+1 attempt(s):
+rybo --> 0 blacks and 3 whites
+Do you want to save the game?? (y/n): y
+Name: game1
+Do you want to continue? (y/n): y
 
+
+
+----- MASTERMIND ---------
+---- Choose one option ----
+1. Start a new game
+2. Open a saved game
+2
+----- Choose one option ----
+1. game1.mm
+1
+game1.mm
+1 attempt(s):
+rybo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Exit game
+1
+Propose a combination: pybo
+2 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+1
+Propose a combination: rpbo
+3 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+rpbo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+1
+Propose a combination: rypo
+4 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+rpbo --> 0 blacks and 3 whites
+rypo --> 0 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+1
+Propose a combination: rybp
+5 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+rpbo --> 0 blacks and 3 whites
+rypo --> 0 blacks and 3 whites
+rybp --> 1 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+1
+Propose a combination: bryp
+6 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+rpbo --> 0 blacks and 3 whites
+rypo --> 0 blacks and 3 whites
+rybp --> 1 blacks and 3 whites
+bryp --> 1 blacks and 3 whites
+----- Choose one option ----
+1. Propose Combination
+2. Undo previous Proposal
+3. Exit game
+1
+Propose a combination: ybrp
+7 attempt(s):
+rybo --> 0 blacks and 3 whites
+pybo --> 0 blacks and 3 whites
+rpbo --> 0 blacks and 3 whites
+rypo --> 0 blacks and 3 whites
+rybp --> 1 blacks and 3 whites
+bryp --> 1 blacks and 3 whites
+ybrp --> 4 blacks and 0 whites
+You've won!!! ;-)
+Do you want to save the game?? (y/n): n
+Do you want to continue? (y/n):
+```
