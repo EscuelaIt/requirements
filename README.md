@@ -6,20 +6,25 @@ Universo Santa Tecla
 
 1. [Modelo del dominio](#modelo-del-dominio)  
 1.1. [Vocabulario](#vocabulario)  
-1.2. [Instrucciones](#instrucciones)  
+1.2. [Estado Final Ganador](#estado-final-ganador)  
+1.3. [Secuencia Proponer Combinacion](#secuencia-proponer-combinacion)  
 2. [Versiones](#versiones)
 
 ## Modelo del dominio  
   
 ![Mastermind](docs/images/mastermind.jpg)  
   
-### Vocabulario
+### Vocabulario  
 
-![Vocabulario](./docs/diagrams/out/modeloDelDominio/Vocabulario.svg)  
+![Vocabulario](./docs/diagrams/out/mastermind_domain_model/mastermind_domain_model.svg)  
   
-### Instrucciones  
+### Estado final ganador  
   
-![Instrucciones](./docs/diagrams/out/modeloDelDominio/Instrucciones.svg)  
+![Estado Final Ganador](./docs/diagrams/out/mastermind_domain_model/mastermind_final_state_winner.svg)  
+
+### Secuencia proponer combinación  
+
+![Secuencia Proponer Combinacion](./docs/diagrams/out/mastermind_domain_model/mastermind_propose_secuence.svg)  
   
 ## Versiones  
   
