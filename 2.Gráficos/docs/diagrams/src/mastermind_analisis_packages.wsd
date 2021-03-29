@@ -88,6 +88,14 @@ package views {
         ~ read(): Color
     }
     enum Message {
+        + TITLE
+        + SECRET_COMBINATION
+        + ATTEMPTS
+        + RESULT
+        + PROPOSED_COMBINATION
+        + WINNER
+        + LOOSER
+        + RESUME
         ~ write()
         ~ write(int)
         ~ write(int, int)
