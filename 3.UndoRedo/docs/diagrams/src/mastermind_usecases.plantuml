@@ -59,7 +59,7 @@ requested --> allowed: System requests a proposed combination
 allowed --> is_correct: Player introduces a proposed combination
 is_correct --> ShowBoard
 is_correct --> error: [incorrect proposed combination]
-note on link 
+note on link
   proposedCombination.colors.length != 4
   proposedCombination.colors at least one repeated
   proposedCombination.colors at least one != Color.values
@@ -81,7 +81,7 @@ end note
 is_finished --> last
 winner --> finished: System shows winner message
 looser --> finished: System shows loser message
-last --> [*]: System allows to propose a combination
+last --> [*]: System allows Propose\nSystem allows Undo if undoable\nSystem allows Redo if redoable
 finished --> [*]: System allows to resume a new game
 @enduml
 
@@ -106,15 +106,17 @@ state INITIAL
 state IN_GAME
 state start as " "
 state ShowBoard as "Show board"
+state showed as " "
 
 [*] --> INITIAL
 INITIAL --> start: Player requests to start a new game
 start --> ShowBoard: System shows title message
-ShowBoard --> IN_GAME: System allows Propose combination
+ShowBoard --> showed
+showed --> IN_GAME: System allows Propose
 IN_GAME --> [*]
 @enduml
 
-@startuml show_board_usecase
+@startuml show_board_action
 state attempts_shown as " "
 state combinations_shown as " "
 [*] --> attempts_shown: System shows attempts
