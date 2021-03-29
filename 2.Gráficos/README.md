@@ -233,24 +233,24 @@ Do you want to continue? (y/n):
 ## Casos de Uso  
 
 ### Analisis Start  
-![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_start.svg)  
+![Start](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_start.svg)  
 
 ### Analisis Propose  
-![Resume](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_propose.svg)  
+![Propose](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_propose.svg)  
 
 ### Analisis Resume  
-![ShowBoard](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_resume.svg)  
+![Resume](./docs/diagrams/out/mastermind_analisis/mastermind_analisis_usecase_resume.svg)  
 
 ## Paquetes  
-
+![Packages](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_packages.svg)
 ### Vistas  
-![ShowBoard](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_views.svg)  
+![Views](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_views.svg)  
 
 ### Controladores  
-![ShowBoard](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_controllers.svg)  
+![Controllers](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_controllers.svg)  
 
 ### Modelos  
-![ShowBoard](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_models.svg)  
+![Models](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_models.svg)  
 
 ### Types  
-![ShowBoard](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_types.svg)  
+![Types](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_types.svg)  

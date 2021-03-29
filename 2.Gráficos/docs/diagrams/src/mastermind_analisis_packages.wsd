@@ -1,3 +1,15 @@
+@startuml mastermind_analisis_packages
+package views
+package controllers
+package models
+package types
+views ..> controllers
+views ..> types
+controllers ..> models
+controllers ..> types
+models ..> types
+@enduml
+
 @startuml mastermind_analisis_controllers
 package controllers {
     abstract class Controller
