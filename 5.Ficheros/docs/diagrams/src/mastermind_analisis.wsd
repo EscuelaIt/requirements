@@ -694,3 +694,181 @@ note on link
 end note
 SecretCombination *-down-> Color
 @enduml
+
+@startuml mastermind_analisis_usecase_open
+allow_mixing
+
+actor Player
+
+package views {
+    object StartView
+    object OpenView
+    object Message
+    object BoardView
+    object SecretCombinationView
+    object ProposedCombinationView
+    object ResultView
+    object ColorView
+}
+
+package controllers {
+    object "openController\n:OpenController" as OpenController
+}
+
+package models {
+    object Board
+    object Result
+    object ProposedCombination
+}
+
+package types {
+    object "color\n:Color" as Color
+}
+
+Player -down-> StartView
+note on link
+    open()
+end note
+StartView .down.> OpenView
+note on link
+    interact(openController)
+end note
+OpenView .down.> Message
+note on link
+    write()
+end note
+OpenView .down.> OpenController
+note on link
+    open(name)
+end note
+StartView .down.> Message
+note on link
+    write()
+end note
+StartView .down.> BoardView
+note on link
+    write(startController)
+end note
+BoardView .down.> OpenController
+note on link
+    getAttempts()
+    getProposedCombinationColors(position)
+    getBlacks(position)
+    getWhites(position)
+end note
+BoardView .down.> Message
+note on link
+    write(attempts)
+end note
+BoardView .down.> SecretCombinationView
+note on link
+    write()
+end note
+SecretCombinationView .down.> Message
+note on link
+    write()
+end note
+BoardView .down.> ProposedCombinationView
+note on link
+    write(colors)
+end note
+ProposedCombinationView .down.> ColorView
+note on link
+    write(color)
+end note
+ColorView .down.> Color
+BoardView .down.> ResultView
+note on link
+    write(blacks, whites)
+end note
+ResultView .down.> Message
+note on link
+    write(blacks, whites)
+end note
+OpenController -down-> Board
+note on link
+    open(name)
+    getAttempts()
+    getProposedCombinationColors(position)
+    getBlacks(position)
+    getWhites(position)
+end note
+Board *-down-> Result
+note on link
+    getBlacks()
+    getWhites()
+end note
+Board *-down-> ProposedCombination
+note on link
+    getColors()
+end note
+ProposedCombination *-down-> Color
+Board .down.> Color
+OpenController .down.> Color
+BoardView .down.> Color
+ProposedCombinationView .down.> Color
+@enduml
+
+@startuml mastermind_analisis_usecase_save
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+    object SaveController
+}
+
+package models  {
+    object Board
+}
+
+package views {
+    object SaveView
+    object Message
+}
+
+Playerr --> SaveView
+note on link
+    save()
+end note
+SaveView --> SaveController
+note on link
+    save(name)
+end note
+SaveView ..> Message
+note on link
+    write()
+end note
+SaveController --> Board
+note on link
+    save(name)
+end note
+@enduml
+
+@startuml mastermind_analisis_usecase_exit
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+    object "exitController\n:ExitController" as ExitController
+}
+
+package views {
+    object ProposeView
+    object MenuView
+}
+
+Playerr --> ProposeView
+note on link
+    exit()
+end note
+ProposeView ..> MenuView
+note on link
+    exit(exitController)
+end note
+MenuView ..> ExitController
+note on link
+    exit()
+end note
+@enduml

@@ -130,7 +130,7 @@ showed --> IN_GAME: System allows Propose
 IN_GAME --> [*]
 @enduml
 
-@startuml show_board_action
+@startuml show_board_usecase
 state attempts_shown as " "
 state combinations_shown as " "
 [*] --> attempts_shown: System shows attempts
