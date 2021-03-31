@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="9c0f9d6b-14f1-4b4c-ba49-e2c8a144ddbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Ficheros/docs/diagrams/src/vistaCasosUso.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Básica/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.Básica/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.Gráficos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Gráficos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.UndoRedo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/3.UndoRedo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.UndoRedo/docs/diagrams/out/mastermind_usecases/show_board_action.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.UndoRedo/docs/diagrams/src/mastermind_usecases.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/3.UndoRedo/docs/diagrams/src/mastermind_usecases.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ClienteServidor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/4.ClienteServidor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ClienteServidor/docs/diagrams/out/vistaCasosUso/actores.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ClienteServidor/docs/diagrams/out/vistaCasosUso/contexto.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ClienteServidor/docs/diagrams/src/vistaCasosUso.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.Ficheros/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/5.Ficheros/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/out/mastermind_domain_model/mastermind_domain_model.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/out/mastermind_domain_model/mastermind_final_state_winner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/out/mastermind_domain_model/mastermind_propose_secuence.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/out/versiones/versiones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/src/mastermind_domain_model.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/diagrams/src/versiones.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/mastermind.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
