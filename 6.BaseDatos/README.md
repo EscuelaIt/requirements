@@ -1,4 +1,4 @@
-# Mastermind. Requisitos Ficheros
+# Mastermind. Requisitos Base de Datos
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
