@@ -274,4 +274,4 @@ Do you want to continue? (y/n):
 ![Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes.svg)  
 
 ### Vista de Interacción de Participantes  
-![Interaccion_Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes_interaccion.svg)  
+![Interaccion_Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes_interacciones.svg)  
