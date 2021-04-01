@@ -18,19 +18,23 @@ Universo Santa Tecla
    2.10. [Prototipo de Interfaz](#prototipo-de-interfaz)  
 3. [Analisis](#analisis)  
    3.1. [Casos de Uso](#casos-de-uso)  
-   3.1.1. [Analisis Start](#analisis-start)  
-   3.1.1. [Analisis Open](#analisis-open)  
-   3.1.2. [Analisis Propose](#analisis-propose)  
-   3.1.3. [Analisis Undo](#analisis-undo)  
-   3.1.4. [Analisis Redo](#analisis-redo)  
-   3.1.1. [Analisis Exit](#analisis-exit)  
-   3.1.1. [Analisis Save](#analisis-save)  
-   3.1.5. [Analisis Resume](#analisis-resume)  
+      3.1.1. [Analisis Start](#analisis-start)  
+      3.1.2. [Analisis Open](#analisis-open)  
+      3.1.3. [Analisis Propose](#analisis-propose)  
+      3.1.4. [Analisis Undo](#analisis-undo)  
+      3.1.5. [Analisis Redo](#analisis-redo)  
+      3.1.6. [Analisis Exit](#analisis-exit)  
+      3.1.7. [Analisis Save](#analisis-save)  
+      3.1.8. [Analisis Resume](#analisis-resume)  
    3.2. [Paquetes](#paquetes)  
-   3.2.1. [Vistas](#vistas)  
-   3.2.2. [Controladores](#controladores)  
-   3.2.3. [Modelos](#modelos)  
-   3.2.4. [Types](#types)  
+      3.2.1. [Vistas](#vistas)  
+      3.2.2. [Controladores](#controladores)  
+      3.2.3. [Modelos](#modelos)  
+      3.2.4. [Types](#types)  
+4. [Diseño](#diseño)  
+   4.1. [Vista de Despliegue](#vista-de-despliegue)  
+   4.2. [Vista de Participantes](#vista-de-participantes)  
+   4.3. [Vista de Interaccion de Participantes](#vista-de-interaccion-de-participantes)  
   
 ## Requisitos  
 
@@ -224,3 +228,14 @@ Do you want to continue? (y/n):
 
 ### Types
 ![Types](./docs/diagrams/out/mastermind_analisis_packages/mastermind_analisis_types.svg)  
+
+## Diseño  
+
+### Vista de Despliegue  
+<!--![Despliegue](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_despliegue.svg)  -->
+
+### Vista de Participantes  
+![Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes.svg)  
+
+### Vista de Interacción de Participantes  
+![Interaccion_Participantes](./docs/diagrams/out/mastermind_diseño/mastermind_diseño_participantes_interaccion.svg)  
